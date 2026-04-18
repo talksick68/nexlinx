@@ -1,0 +1,112 @@
+
+.TabbedPanels {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	clear: none;
+	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+
+.TabbedPanelsContent h1 {font-size:18px !important; color:#333 !important;}
+
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+}
+
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	padding: 20px 16px 10px 17px !important;
+	border-left:1px solid #ccc;
+  font: normal 14px 'HelveticaNeueLTStd67MdCn';	
+  background-color: #ddd;
+	list-style: none;
+	cursor: pointer;
+  outline:none;
+}
+
+.TabbedPanelsTabHover {
+	background: url(../images/header_nav_bg.png) 0 0 repeat-x;
+  color: #fff;
+}
+
+.TabbedPanelsTabSelected {
+	background: url(../images/header_nav_bg.png) 0 0 repeat-x;
+  color: #fff;
+}
+
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+.TabbedPanelsContentGroup {
+	clear: both;
+	background: #f8f8f8	 url(../images/login/members_bg.png) right bottom no-repeat;
+  border-bottom: 1px solid #f3f3f3;
+  border-radius:3px;
+}
+
+.TabbedPanelsContent form label { font-size:12px !important; width: 150px !important;}
+
+.TabbedPanelsContent {
+	overflow: hidden;
+	padding: 20px;
+}
+.TabbedPanelsContentVisible {
+}
+
+
+.VTabbedPanels {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+}
+
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+}
+
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background: url(../images/header_nav_bg.png) 0 0 repeat-x;
+  color: #fff;
+}
+
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+/* Styles for Printing */
+@media print {
+.TabbedPanels {
+	overflow: visible !important;
+}
+.TabbedPanelsContentGroup {
+	display: block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: block !important;
+	clear:both !important;
+}
+.TabbedPanelsTab {
+	 overflow: visible !important;
+	 display: block !important;
+	 clear:both !important;
+}
+}

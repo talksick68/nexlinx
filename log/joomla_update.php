@@ -1,0 +1,9 @@
+#
+#<?php die('Forbidden.'); ?>
+#Date: 2015-11-09 14:40:52 UTC
+#Software: Joomla Platform 13.1.0 Stable [ Curiosity ] 24-Apr-2013 00:00 GMT
+
+#Fields: datetime	priority clientip	category	message
+2015-11-09T14:40:52+00:00	INFO 39.47.141.106	update	COM_JOOMLAUPDATE_UPDATE_LOG_DELETE_FILES
+2015-11-10T06:29:22+00:00	INFO 127.0.0.1	update	COM_JOOMLAUPDATE_UPDATE_LOG_DELETE_FILES
+2016-11-14T16:11:07+00:00	INFO 202.59.80.26	update	COM_JOOMLAUPDATE_UPDATE_LOG_DELETE_FILES

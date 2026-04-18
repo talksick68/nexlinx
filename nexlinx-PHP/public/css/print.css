@@ -1,0 +1,36 @@
+body {
+  color: #000;
+  background: white;
+  font-family: Arial, Helvetica, serif;
+  font-size: 12px !important;
+}
+
+td, th, h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, serif;
+}
+
+h1 {
+  font-size: 14px !important;
+}
+
+h2 {
+  font-size: 12px !important;
+}
+
+h3 {
+  font-size: 12px !important;
+}
+
+p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, serif;
+  line-height: 18px;
+}
+
+#content {
+  color: black;
+}
+
+.navigation, #banner_container_sub, .right_buttons, .content_right, #footer_sticky { visibility:hidden; height:0;margin-bottom: -100px;}
+
+.content_left { z-index:1000;}

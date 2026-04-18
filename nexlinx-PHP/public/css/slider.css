@@ -1,0 +1,61 @@
+.slides_container {  
+	overflow:hidden;
+	position:relative;
+	display:none;
+	margin-left: 25px;
+  height: 370px;
+}
+.slides_container .slide1,.slides_container .slide2,.slides_container .slide3,.slides_container .slide4,.slides_container .slide5 {
+	width:990px;height:370px; display:block; z-index:0; }
+.slides_container .slide1{background:url(../images/home_banners/home2_banner_satellite.png) 270px top no-repeat;}
+.slides_container .slide2{background:url(../images/home_banners/home2_banner_dsl.png) 370px top no-repeat;}
+.slides_container .slide3{background:url(../images/home_banners/home2_banner_wireless.png) 350px top no-repeat;}
+.slides_container .slide4{background:url(../images/home_banners/home2_banner_fibre.png) 450px top no-repeat;}
+.slides_container .slide5{background:url(../images/home_banners/home2_banner_hosting.png) 350px top no-repeat;}
+
+.prev { float: left;
+	width: 32px;
+	margin-top: -220px;
+	display:block;
+	height: 51px;
+	z-index:9999;
+  position: relative; left:-10px;
+  outline:none;
+  background:url(../images/home_banners/home_banner_arrows.png) 0 0 no-repeat;
+}
+
+.next { float: right;
+	width: 32px;
+	margin-top: -220px;
+	display:block;
+	height: 51px;
+	z-index:9999;
+  position: relative; 
+  right: -20px;
+  outline:none;
+  background:url(../images/home_banners/home_banner_arrows.png) -30px 0 no-repeat;
+}
+.prev:hover { background:url(../images/home_banners/home_banner_arrows.png) 0 -50px no-repeat;}
+.next:hover { background:url(../images/home_banners/home_banner_arrows.png) -30px -50px no-repeat; }
+
+/*bottom dots navigation*/
+.pagination {
+	position: relative; top: -80px; left: 840px; 
+	width: 200px; height: 50px; /*background: url(../images/slider/pagination.png) no-repeat;*/ z-index: 100; padding:3px 0 0 7px; 
+}
+pagination li {
+	float:left;
+	padding: 0 5px;
+	list-style:none;
+	}
+.pagination li a {
+	width:30px;
+	height:0px;
+	padding-top:20px;
+	background-image:url(../images/slider/pagination.png);
+	background-position:0 0px;
+	float:left;
+	overflow:hidden;
+	margin-left: 0;
+}
+.pagination li.current a {	background-position:0 -25px;}
